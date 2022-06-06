@@ -8,6 +8,7 @@
 ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 
 ### Setting
 
@@ -54,6 +55,9 @@ start
 
 - 시작하기
   - [ ] 서버 미들웨어 세팅
-  - [ ] Typescript 서버 개발 정형화
-  - [ ] DB 연동
+  - [ ] Typescript 서버 개발 정형화 (MVC 모델)
+  - [x] DB 생성 및 세팅 -> MariaDB
+  - [x] DB 연동
+  - [ ] HTTP 요청 헤더 세팅
+        ->Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
   - [ ] DB 설계

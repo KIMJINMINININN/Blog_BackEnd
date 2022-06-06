@@ -8,13 +8,24 @@ import express, {
 import { Server } from "http";
 import createHttpError from "http-errors";
 import { config } from "dotenv";
+import morgan from "morgan";
+import { conn } from "./database/connect";
 
 config();
 
 const app: Application = express();
 
+const maria = conn;
+maria.connect();
+
 app.get("/", (req: Request, res: Response, next: NextFunction) => {
   res.send("Hello from ts app ");
+  maria.query("SELECT * FROM emp", function (err, rows, field) {
+    console.log(rows, field);
+    if (!err) {
+      res.send(rows);
+    }
+  });
 });
 
 app.use((req: Request, res: Response, next: NextFunction) => {
