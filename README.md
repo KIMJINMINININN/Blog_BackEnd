@@ -55,9 +55,11 @@ start
 
 - 시작하기
   - [ ] 서버 미들웨어 세팅
-  - [ ] Typescript 서버 개발 정형화 (MVC 모델)
+  - [ ] DB 설계
   - [x] DB 생성 및 세팅 -> MariaDB
   - [x] DB 연동
   - [ ] HTTP 요청 헤더 세팅
         ->Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
-  - [ ] DB 설계
+  - [x] Folder Structure
+  - [ ] MVC 패턴 세팅하기(Router/Controller/Model .. etc)
+  - [ ] Sequelize 세팅하기
