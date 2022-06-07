@@ -63,3 +63,11 @@ start
   - [x] Folder Structure
   - [ ] MVC 패턴 세팅하기(Router/Controller/Model .. etc)
   - [ ] Sequelize 세팅하기
+  - [ ] DB Table 세팅
+  - [ ] Route / Controller / Services 구성 및 글 조회 기능 구현
+  - [ ] 글 조회 api 생성
+  - [ ] 서버 세팅 완료
+
+---
+
+6/12
