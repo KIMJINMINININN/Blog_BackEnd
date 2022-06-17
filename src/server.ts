@@ -14,7 +14,6 @@ import { conn } from "./database/connect";
 config();
 
 const app: Application = express();
-
 const maria = conn;
 maria.connect();
 
@@ -41,7 +40,6 @@ const errorHandler: ErrorRequestHandler = (err, req, res, next) => {
 };
 
 app.use(errorHandler);
-
 const PORT: Number = Number(process.env.PORT) || 3000;
 const server: Server = app.listen(PORT, () =>
   console.log(`👏 is on Port ${PORT} !`)
