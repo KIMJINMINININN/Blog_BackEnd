@@ -16,7 +16,6 @@ config();
 const app: Application = express();
 const maria = conn;
 maria.connect();
-
 app.get("/", (req: Request, res: Response, next: NextFunction) => {
   res.send("Hello from ts app ");
   maria.query("SELECT * FROM emp", function (err, rows, field) {
