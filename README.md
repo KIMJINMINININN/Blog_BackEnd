@@ -55,11 +55,12 @@ start
 
 - 시작하기
   - [ ] 서버 미들웨어 세팅
-  - [ ] DB 설계
+  - [x] DB 설계
   - [ ] 기획서 산출
   - [x] ERD 작성
-  - [ ] 표 (고도화 ERD)
-  - [ ] 실제 데이터 베이스
+  - [x] 표 (고도화 ERD)
+  - [ ] 표 고도화 작업
+  - [x] 실제 데이터 베이스
 
   
   - [x] DB 생성 및 세팅 -> MariaDB
@@ -69,11 +70,10 @@ start
   - [x] Folder Structure
   - [ ] MVC 패턴 세팅하기(Router/Controller/Model .. etc)
   - [ ] Sequelize 세팅하기
-  - [ ] DB Table 세팅
+  - [x] DB Table 세팅
   - [ ] Route / Controller / Services 구성 및 글 조회 기능 구현
   - [ ] 글 조회 api 생성
   - [ ] 서버 세팅 완료
 
 ---
 
-6/12

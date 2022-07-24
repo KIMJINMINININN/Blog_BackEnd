@@ -18,10 +18,10 @@ const maria = conn;
 maria.connect();
 app.get("/", (req: Request, res: Response, next: NextFunction) => {
   res.send("Hello from ts app ");
-  maria.query("SELECT * FROM emp", function (err, rows, field) {
-    console.log(rows, field);
+  maria.query("SELECT * FROM users", function (err, rows, field) {
+    console.log(rows[0].user_id, field);
     if (!err) {
-      res.send(rows);
+      // res.send(rows);
     }
   });
 });
