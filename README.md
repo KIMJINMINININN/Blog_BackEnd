@@ -54,6 +54,7 @@ start
   - [ ] T-story 참고하여 기획정리
 
 - 시작하기
+
   - [ ] 서버 미들웨어 세팅
   - [x] DB 설계
   - [ ] 기획서 산출
@@ -61,8 +62,8 @@ start
   - [x] 표 (고도화 ERD)
   - [ ] 표 고도화 작업
   - [x] 실제 데이터 베이스
+  - [x] ESlint, Prettier Setting
 
-  
   - [x] DB 생성 및 세팅 -> MariaDB
   - [x] DB 연동
   - [ ] HTTP 요청 헤더 세팅
@@ -76,4 +77,3 @@ start
   - [ ] 서버 세팅 완료
 
 ---
-
