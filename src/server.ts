@@ -8,11 +8,16 @@ import express, {
 } from 'express';
 import { Server } from 'http';
 import createHttpError from 'http-errors';
+import morgan from 'morgan';
 import { conn } from './database/connect';
 
 config();
 
 const app: Application = express();
+app.use(morgan('dev'));
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
+// app.use('/admin', adminRouter);
 const maria = conn;
 maria.connect();
 app.get('/', (req: Request, res: Response, next: NextFunction) => {
